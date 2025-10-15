@@ -1,4 +1,4 @@
-# 🏕️ CampsApp
+#  CampsApp
 
 A full-stack campground listing web application built using Node.js, Express, MongoDB, EJS, and Bootstrap. Users can register, log in, post campgrounds, leave reviews, and more.
 
@@ -7,13 +7,13 @@ A full-stack campground listing web application built using Node.js, Express, Mo
 
 ## 🌐 Live Demo
 
-🚀 [Visit the Live App here](https://campsapp-production.up.railway.app/)
+[Visit the Live App here](https://campsapp.onrender.com/)
 
 
 ---
 
 
-## 📦 Features
+##  Features
 
 - User authentication with Passport.js
 - CRUD operations for campgrounds
@@ -26,7 +26,7 @@ A full-stack campground listing web application built using Node.js, Express, Mo
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer      | Tech                            |
 |------------|---------------------------------|
@@ -39,7 +39,7 @@ A full-stack campground listing web application built using Node.js, Express, Mo
 
 ---
 
-## 🧪 Local Development Setup
+##  Local Development Setup
 
 ### 1. Clone the repository
 
@@ -68,14 +68,13 @@ Then visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🚀 Deployment on Railway
+## 🚀 Deployment on Render
 
 ### Steps
 
-1. Push the repo to GitHub  
-2. Go to [https://railway.app](https://railway.app) and connect your repo  
-3. Add environment variables under the **Variables** tab  
-4. Trigger a deployment and enjoy your live app!
+- Push your repo to GitHub, go to [https://render.com/](render.com) → New → Web Service, connect GitHub and pick your branch.
+- Set Environment: Node; Build Command: npm install; Start Command: npm start (Render provides PORT).
+- Add env vars (MONGODB_URI, CLOUDINARY_*, MAPTILER_KEY, SESSION_SECRET, etc.) in Environment tab, then create the service and open the Render URL when deploy finishes.
 
 ---
 
